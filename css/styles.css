@@ -1,0 +1,249 @@
+:root {
+  --main-text-color: #212121;
+  --second-text-color: #757575;
+  --logo-and-hover-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --alternate-black-color: #2f303a;
+  --logo-header-color: #000000;
+  --logo-footer-color: #ffffff;
+  --footer-links-text-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  font-family: 'Roboto', 'Raleway', sans-serif;
+  background-color: var(--primary-white-color);
+  color: var(--main-text-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* чердачок */
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--logo-header-color);
+}
+
+.logo span {
+  color: var(--logo-and-hover-color);
+}
+
+/* навигация */
+
+.site-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .link {
+  color: var(--main-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--logo-and-hover-color);
+}
+
+.site-nav .link.current {
+  color: var(--logo-and-hover-color);
+}
+
+/* контакты */
+
+.site-nav .contact {
+  color: var(--second-text-color);
+}
+
+.site-nav .contact:hover,
+.site-nav .contact:focus {
+  color: var(--logo-and-hover-color);
+}
+
+/* герой */
+
+.hero {
+  background-color: var(--alternate-black-color);
+}
+
+.hero-header {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+
+.hero button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--logo-and-hover-color);
+  color: var(--primary-white-color);
+}
+
+/* чем мы лючше других */
+
+/* .avantages ul {
+  display: flex;
+} */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.avantages h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.avantages p {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--second-text-color);
+}
+
+/* направления нашей работы */
+
+.activities,
+.personal {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* .activities ul {
+  display: flex;
+} */
+
+/* наши сотрудники */
+
+.personal ul {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.personal h3 {
+  font-style: normal;
+  font-weight: 500;
+}
+
+.personal p {
+  color: var(--second-text-color);
+}
+
+/* погребок */
+
+.footer-bgc {
+  background-color: var(--alternate-black-color);
+}
+
+.footer-bgc .footer-logo {
+  color: var(--logo-footer-color);
+}
+
+.address-list {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.kiev {
+  color: var(--primary-white-color);
+}
+
+.address-list a {
+  color: var(--footer-links-text-color);
+}
+
+.address-list a:hover,
+.address-list a:focus {
+  color: var(--logo-and-hover-color);
+}
+
+/* --- страница "Портфолио" --- */
+
+/* .portfolio section {
+  width: 1170px;
+} */
+
+/* .portfolio .button {
+  display: flex;
+} */
+
+.portfolio button {
+  font-family: inherit;
+  border: hidden;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: F5F4FA;
+  color: var(--main-text-color);
+}
+
+.portfolio button:hover,
+.portfolio button:focus {
+  background-color: var(--logo-and-hover-color);
+  color: var(--primary-white-color);
+}
+
+/* .portfolio ul {
+  display: flex; 
+} */
+
+.portfolio h2 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color);
+}
+
+.portfolio p {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
